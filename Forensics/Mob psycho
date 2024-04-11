@@ -1,9 +1,9 @@
-# Mob Psycho
+# **Mob Psycho**
 
-## Problem
+## **Problem**
 Can you handle APKs?
 
-## Solution
+## **Solution**
 Download the apk. Extract the files. 
 Open a terminal from the new folder.
 I used an educated guess...previous flags have been listed as "flag.txt"
