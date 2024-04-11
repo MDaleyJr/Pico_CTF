@@ -1,9 +1,9 @@
-# Blame Game
+# **Blame Game**
 
-## Problem
+## **Problem**
 Someone's commits seems to be preventing the program from working. Who is it?
 
-## Solution
+## **Solution**
 Download the zip and extract it. Open a terminal from the new extracted folder:
 do a git log
 
