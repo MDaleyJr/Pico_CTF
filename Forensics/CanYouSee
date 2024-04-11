@@ -3,7 +3,7 @@
 ## **Problem**
 How about some hide and seek?
 
-## Solution
+## **Solution**
 Download the zip and extrat it.
 Open a terminal from the new extracted folder. 
 Use the exiftool function on the image in the folder:
