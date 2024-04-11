@@ -1,9 +1,9 @@
-# Collaborative Development
+# **Collaborative Development**
 
-## Problem
+## **Problem**
 My team has been working very hard on new features for our flag printing program! I wonder how they'll work together?
 
-## Solution
+## **Solution**
 Download the zip and extract it. Open a terminal in the new extracted folder:
 git log
 
