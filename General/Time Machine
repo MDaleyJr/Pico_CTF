@@ -1,9 +1,9 @@
-# Time Machine
+# **Time Machine**
 
-## Problem
+## **Problem**
 What was I last working on? I remember writing a note to help me remember...
 
-## Solution
+## **Solution**
 This was is simple first download the zip and extract it 
 then open a terminal from the new extracted folder and do a git show
 
