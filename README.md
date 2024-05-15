@@ -11,3 +11,4 @@ This was my first ever CTF. It was day 2 of my Cybervets.org journey so we reall
 
 
 # Here was my contribuition to the teams score
+![teams](https://github.com/MDaleyJr/Pico_CTF/blob/main/PicoCTFcontributions.png?raw=true)
