@@ -8,7 +8,7 @@ This was my first ever CTF. It was day 2 of my Cybervets.org journey so we reall
 
 # This is the total number of teams
 
-![teams](https://github.com/MDaleyJr/Pico_CTF/blob/main/PicoCTFtotalteams.png?raw=true)
+![teams](https://github.com/MDaleyJr/Pico_CTF/blob/main/IMAGES/PicoCTFtotalteams.png?raw=true)
 
-# Here was my contribuition to the teams score
-![contribution](https://github.com/MDaleyJr/Pico_CTF/blob/main/PicoCTFcontributions.png?raw=true)
+# Here was my contribuition to the team score
+![contribution](https://github.com/MDaleyJr/Pico_CTF/blob/main/IMAGES/PicoCTFcontributions.png?raw=true)
