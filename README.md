@@ -3,12 +3,12 @@ This was my first ever CTF. It was day 2 of my Cybervets.org journey so we reall
 
 # This was my final rank
 
-![rank](https://github.com/MDaleyJr/Pico_CTF/blob/main/IMAGES/PicoCTFRank.png)
+![rank](https://github.com/MDaleyJr/Files/blob/main/PicoCTFRank.png)
 
 
 # This is the total number of teams
 
-![teams](https://github.com/MDaleyJr/Pico_CTF/blob/main/IMAGES/PicoCTFtotalteams.png?raw=true)
+![teams](https://github.com/MDaleyJr/Files/blob/main/PicoCTFtotalteams.png)
 
 # Here was my contribuition to the team score
-![contribution](https://github.com/MDaleyJr/Pico_CTF/blob/main/IMAGES/PicoCTFcontributions.png?raw=true)
+![contribution](https://github.com/MDaleyJr/Files/blob/main/PicoCTFcontributions.png)
