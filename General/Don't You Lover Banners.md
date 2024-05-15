@@ -31,15 +31,14 @@ John Draper
 player@challenge:~$ 
 
 
-now that you are in, find the flag.
+### now that you are in, find the flag.; a quick ls -la will show the flag.txt file
 
-a quick ls -la will show the flag.txt file
-
-I actually didnt use the hints to get the flag...I checked the etc folder and was given access. Becuase this was open
-I jumped straight to the shadow folder and hit it with a the cat function:
+### I actually didnt use the hints to get the flag...I checked the etc folder and was given access. Becuase this was open I jumped straight to the shadow folder and hit it with a the cat function:
 
 player@challenge:~$ cd /etc
+
 cd /etc
+
 player@challenge:/etc$ cat shadow
 
 cat shadow
